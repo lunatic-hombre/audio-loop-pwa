@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1557861660146,
+  "timestamp": 1557873069824,
   "index": "/audio-loop-pwa/index.html",
   "assetGroups": [
     {
@@ -11,7 +11,7 @@
         "/audio-loop-pwa/es2015-polyfills.1e04665e16f944715fd2.js",
         "/audio-loop-pwa/favicon.ico",
         "/audio-loop-pwa/index.html",
-        "/audio-loop-pwa/main.6f8f57106f15d40f2d98.js",
+        "/audio-loop-pwa/main.be855a280b8f1f359822.js",
         "/audio-loop-pwa/polyfills.8bbb231b43165d65d357.js",
         "/audio-loop-pwa/runtime.26209474bfa8dc87a77c.js",
         "/audio-loop-pwa/styles.3ff695c00d717f2d2a11.css"
@@ -51,8 +51,8 @@
     "/audio-loop-pwa/assets/short-loop.mp3": "9d49a5f6ceb148e5418e9b7501fd407f3f68864c",
     "/audio-loop-pwa/es2015-polyfills.1e04665e16f944715fd2.js": "b7a81c61d32b0b12737f0c13f45973ba391cd7f9",
     "/audio-loop-pwa/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/audio-loop-pwa/index.html": "51edc6fca9e83a06c4e79e42d8a2444c6458acf3",
-    "/audio-loop-pwa/main.6f8f57106f15d40f2d98.js": "f3e99f125b87bdc20859b1be04d98e356ccde18e",
+    "/audio-loop-pwa/index.html": "3732cce9a300054c98a59a05bde65877c0c1d327",
+    "/audio-loop-pwa/main.be855a280b8f1f359822.js": "c67e7460344f20be20ab5dea69752d501dff53b0",
     "/audio-loop-pwa/polyfills.8bbb231b43165d65d357.js": "ffa449995bf2eba2ccd0a002417214f7eb75e7b5",
     "/audio-loop-pwa/runtime.26209474bfa8dc87a77c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
     "/audio-loop-pwa/styles.3ff695c00d717f2d2a11.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
