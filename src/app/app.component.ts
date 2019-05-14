@@ -1,4 +1,5 @@
-import {Component, OnInit} from '@angular/core';
+import {Component} from '@angular/core';
+import {Howl} from 'howler';
 
 @Component({
   selector: 'app-root',
@@ -7,11 +8,31 @@ import {Component, OnInit} from '@angular/core';
 })
 export class AppComponent {
 
-  start(): void {
-    const audio = new Audio();
-    audio.src = 'assets/short-loop.mp3';
-    audio.loop = true;
-    audio.play();
+  howl: Howl;
+
+  shortLoop(): void {
+    if (this.howl) {
+      this.howl.unload();
+    }
+    this.howl = new Howl({
+      src: 'assets/short-loop.mp3',
+      loop: true,
+      autoplay: true,
+      html5: true,
+    });
+  }
+
+  longLoop(): void {
+    if (this.howl) {
+      this.howl.unload();
+    }
+    this.howl = new Howl({
+      src: 'assets/long-loop.mp3',
+      loop: true,
+      autoplay: true,
+      html5: true,
+    });
+    this.howl.fade(0, 1, 3000);
   }
 
 }
